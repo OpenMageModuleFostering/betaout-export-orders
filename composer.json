@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/betaout-export-orders",
+    "type": "magento-module",
+    "license": "GPL",
+    "homepage": "",
+    "description": "Magento sales orde export for betaout",
+    "authors": [
+    {
+        "name": "jitendra",
+        "email": "jitendra@getamplify.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
