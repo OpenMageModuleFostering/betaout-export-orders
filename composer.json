@@ -3,7 +3,7 @@
     "type": "magento-module",
     "license": "GPL",
     "homepage": "",
-    "description": "Magento sales orde export for betaout",
+    "description": "Helps you quickly export in format needed for Betaout.com, helping in integration with Betaout.com. ",
     "authors": [
     {
         "name": "jitendra",
