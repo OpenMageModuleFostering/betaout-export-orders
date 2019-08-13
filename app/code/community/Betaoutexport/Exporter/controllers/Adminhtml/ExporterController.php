@@ -33,6 +33,7 @@ class Betaoutexport_Exporter_Adminhtml_ExporterController extends Mage_Adminhtml
 	public function exportallAction()
 	{
 	  $orders = Mage::getModel('sales/order')->getCollection()
+                ->addFieldToFilter('status', 'complete')
 		->addAttributeToSelect('entity_id');
 		$order_arr = array();
 		foreach ($orders as $order)  {
