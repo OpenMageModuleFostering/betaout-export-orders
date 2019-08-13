@@ -224,7 +224,7 @@ $this->getOrderItemValues($item, $order, ++$itemInc));
                     $order->getData('customer_email'),
                     $this->getPaymentMethod($order),
                     $order->getData('order_currency_code'),
-                    $order->getData('created_at'),
+                    Mage::getModel('core/date')->timestamp($order->getData('created_at')),
                     $order->getData('coupon_code')
                     );
 //        return array(
