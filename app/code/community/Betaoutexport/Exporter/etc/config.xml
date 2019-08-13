@@ -71,7 +71,7 @@
 		<layout>
 			<updates>
 				<exporter>
-					<file>betaoutexport_exporter.xml</file>
+					<file>betaoutexporter.xml</file>
 				</exporter>
 			</updates>
 		</layout>
