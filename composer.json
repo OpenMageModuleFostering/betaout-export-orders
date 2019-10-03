@@ -1,5 +1,5 @@
 {
-    "name": "OpenMageModuleFostering\/betaout-export-orders",
+    "name": "openmage-module-fostering\/betaout-export-orders",
     "type": "magento-module",
     "license": "GPL",
     "homepage": "",
