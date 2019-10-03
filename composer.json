@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/betaout-export-orders",
+    "name": "OpenMageModuleFostering\/betaout-export-orders",
     "type": "magento-module",
     "license": "GPL",
     "homepage": "",
     "description": "Helps you quickly export in format needed for Betaout.com, helping in integration with Betaout.com. ",
     "authors": [
-    {
-        "name": "jitendra",
-        "email": "jitendra@getamplify.com"
-    }
-],
+        {
+            "name": "jitendra",
+            "email": "jitendra@getamplify.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
